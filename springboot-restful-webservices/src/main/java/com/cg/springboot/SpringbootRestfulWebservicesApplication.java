@@ -1,13 +1,13 @@
-package net.javaguides.springboot;
+package com.cg.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootRestApiApplication {
+public class SpringbootRestfulWebservicesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootRestApiApplication.class, args);
+		SpringApplication.run(SpringbootRestfulWebservicesApplication.class, args);
 	}
 
 }
