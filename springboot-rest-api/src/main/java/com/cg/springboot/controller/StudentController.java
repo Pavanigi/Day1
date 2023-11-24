@@ -43,6 +43,7 @@ public class StudentController {
         students.add(new Student(2, "Pavani", "Pallapu"));
         students.add(new Student(3, "Ram", "Jadhav"));
         students.add(new Student(4, "Sanjay", "Pawar"));
+        students.add(new Student(5, "bujji", "bandaru"));
         return ResponseEntity.ok(students);
     }
 
